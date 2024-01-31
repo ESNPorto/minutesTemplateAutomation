@@ -1,0 +1,15 @@
+button {
+    visibility: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 60%;
+    gap: 1rem;
+}
+
+#logo {
+    max-width: 30%;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minutes Template Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <img id="logo" alt="ESN Porto logo" src="logo.png">
+            <input type="date" id="gm_day">
+            <label for="doc-id">Link of document &lpar;if you want to finish an incomplete template&rpar;:</label>
+            <input type="text" id="doc-id">
+            <button id="auth_button" class="camo_button">Login</button>
+            <button id="signout_button" class="camo_button">Sign out</button>
+            <button id="fetch_button" class="camo_button">Fetch data</button>
+            <button id="insert_button">Insert all data</button>
+            <button id="insert_initial_button">Insert data available at the start of the GM</button>
+            <button id="insert_final_button">Insert data available at the end of the GM</button>
+            <button id="redirect_button">View result</button>
+            <h2>How to use:</h2>
+            <ol>
+                <li>Log in with an ESN Porto Google account;</li>
+                <li>Pick the desired GM's date;</li>
+                <li>Press the buttons as they appear: fetch data, etc</li>
+                <li>If you want to start with just the topics and fill in the rest later:
+                    <ol>
+                        <li>Press "Insert data available at the start of the GM" and use the result</li>
+                        <li>Return to the page at the end of the meeting, paste the document's link in the text field, and use "Insert data available at the end of the GM"</li>
+                    </ol>
+                </li>
+                <li>Press "View Result" to view your template!</li>
+            </ol>
+    </body>
+    <script src="api_setup.js"></script>
+    <script src="fetch.js"></script>
+    <script src="copy.js"></script>
+    <script src="insert.js"></script>
+    <script async src="https://apis.google.com/js/api.js" onload="gapiLoaded()"></script>
+    <script async src="https://accounts.google.com/gsi/client" onload="gisLoaded()"></script>
+</html>
