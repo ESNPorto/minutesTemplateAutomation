@@ -1,6 +1,6 @@
 # ESN Porto Minutes Template Automation
 
-This is a tool that ESN Porto uses to automatically fill in the minutes template for a given GM. It requires an @esnporto.org email account, and is available [here](esnport-minutes.web.app). The user can choose to fill in everything at once, or fill in only what is available at the start of the GM to return and fill in the rest later.
+This is a tool that ESN Porto uses to automatically fill in the minutes template for a given GM. It requires an @esnporto.org email account, and is available [here](https://esnporto-minutes.web.app). The user can choose to fill in everything at once, or fill in only what is available at the start of the GM to return and fill in the rest later.
 
 Here's a brief description of each file:
 - `index.html`: structure of the page
