@@ -73,9 +73,9 @@ async function fetchData() {
     console.log(nextWeek)
 
     const request = {
-        spreadsheetId: '1-FDcnqWohD_0nPwZueZJcULdGTql5RY90bZjoYo7aow',
-        ranges: [`'${date}'!A1:B35`, `'${date}'!C1:D35`, `'${date}'!E1:F35`,
-                 `'${date}'!I1:I6`, `'${date}'!J1:L40`, `'${date}'!M1:N40`, `'${date}'!G1:H35`, `'Chairing Teams'!B3:E100`],
+        spreadsheetId: CONFIG.SPREADSHEET_ID,
+        ranges: [`'${date}'!A1:B57`, `'${date}'!C1:D57`, `'${date}'!E1:F57`,
+                 `'${date}'!I1:I7`, `'${date}'!J1:L40`, `'${date}'!M1:N40`, `'${date}'!G1:H57`, `'Chairing Teams'!B3:E100`],
     }
 
     try {
